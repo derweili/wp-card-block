@@ -53,14 +53,10 @@ registerBlockType('horttcore/card', {
             selector: '.card__body'
         },
         buttonText: {
-            type: 'string',
-            selector: '.card__button'
+            type: 'string'
         },
         buttonLink: {
-            type: 'string',
-            source: 'attribute',
-            attribute: 'href',
-            selector: '.card__button'
+            type: 'string'
         }
     },
     edit: props => {
